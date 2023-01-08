@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+body {
+    background-color: rgb(75, 114, 166);
+    color: rgb(255, 255, 255);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    font-size: medium;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    width: 400px;
+    background-color: rgb(255,255,255);
+}
+
+.tdbutton {
+    cursor: pointer;
+    border: none;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(0, 71, 152);
+    background-color: rgb(255, 255, 255);
+}
+
+.tdbutton:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 71, 152);
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
